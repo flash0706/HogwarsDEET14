@@ -17,6 +17,7 @@ class TestMyCalc:
     #     print("计算结束")
 
     @pytest.mark.add
+    #在调用测试方法之前打印【开始计算】，在调用测试方法之后打印【计算结束】
     @pytest.mark.parametrize('self_setup', ['add'], indirect=True)
     @pytest.mark.parametrize('a,b,result', [(1, 1, 2), (-1, -1, -2), (0, 0, 0), (0.1, 0.9, 1)], ids=['add_int', 'add_fushu', 'add_zero', 'add_decimal'])
     def test_add(self, a, b, result, self_setup):
