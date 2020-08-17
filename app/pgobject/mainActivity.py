@@ -18,9 +18,5 @@ class MainActivity(Pagebase):
     '''
     def click_cont(self):
         sleep(3)
-        # self.webdriver_wait_click(self.contactlist)
-        #self.find_click(self.contactlist)
-        # self.driver.find_element(MobileBy.XPATH,
-        #            "//android.widget.TextView[@text='通讯录']").click()
         self.steps(self.path, 'click_cont')
         return LinearLayout(self.driver)

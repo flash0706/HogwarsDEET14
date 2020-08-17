@@ -13,9 +13,6 @@ class Addmembers(Pagebase):
     path = '../data/addmembers.yaml'
     def add_manually(self):
         self.steps(self.path, 'add_manually')
-        # eleadd_manually =(MobileBy.ID, "com.tencent.wework:id/cq6")
-        # self.webdriver_wait(eleadd_manually)
-        # self.find_click(eleadd_manually)
         return Addmanualmem(self.driver)
 
 
