@@ -1,0 +1,4 @@
+click_cont:
+  - by: xpath
+    locator: "//android.widget.TextView[@text='通讯录']"
+    action: click

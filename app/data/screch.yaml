@@ -1,0 +1,16 @@
+editText:
+  - by: id
+    locator: "com.tencent.wework:id/fxc"
+    action: send
+    value: ${name}
+  - by: xpath
+    locator: "//*[(@text='${name}')and (@class='android.widget.TextView')]"
+    action: wait
+  - by: xpath
+    locator: "//*[(@text='${name}')and (@class='android.widget.TextView')]"
+    action: click
+
+isexistence:
+  - by: xpath
+    locator: "//*[(@text='${name}')and (@class='android.widget.TextView')]"
+    action: isPresent

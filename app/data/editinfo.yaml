@@ -1,0 +1,15 @@
+detele:
+  - by: id
+    locator: "com.tencent.wework:id/e3f"
+    action: wait
+  - by: id
+    locator: "com.tencent.wework:id/e3f"
+    action: click
+  - by: id
+    locator: "com.tencent.wework:id/bci"
+    action: wait
+  - by: id
+    locator: "com.tencent.wework:id/bci"
+    action: click
+
+

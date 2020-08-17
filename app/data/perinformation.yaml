@@ -1,0 +1,7 @@
+clickmore:
+  - by: id
+    locator: "com.tencent.wework:id/h9p"
+    action: wait
+  - by: id
+    locator: "com.tencent.wework:id/h9p"
+    action: click

@@ -1,0 +1,12 @@
+click_screch:
+  - by: id
+    locator: "com.tencent.wework:id/h9z"
+    action: wait
+  - by: id
+    locator: "com.tencent.wework:id/h9z"
+    action: click
+
+add_num:
+  - text: "添加成员"
+    action: scroll
+

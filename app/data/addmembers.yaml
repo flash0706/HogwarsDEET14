@@ -1,0 +1,9 @@
+add_manually:
+  - by: id
+    locator: "com.tencent.wework:id/cq6"
+    action: wait
+  - by: id
+    locator: "com.tencent.wework:id/cq6"
+    action: click
+
+

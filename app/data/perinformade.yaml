@@ -1,0 +1,4 @@
+clickedit:
+  - by: id
+    locator: "com.tencent.wework:id/b2c"
+    action: click

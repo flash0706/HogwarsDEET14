@@ -1,0 +1,19 @@
+add_name:
+  - by: xpath
+    locator: "//*[contains(@text, '姓名')]/../*[@class='android.widget.EditText']"
+    action: send
+    value: ${name}
+
+add_mobynum:
+  - by: id
+    locator: "com.tencent.wework:id/f1e"
+    action: send
+    value: ${num}
+
+add_gender:
+  - by: xpath
+    locator: "//*[contains(@text, '性别')]/../*[@class='android.widget.RelativeLayout']"
+    action: click
+  - by: xpath
+    locator: "//*[@text='${gender}']"
+    action: click
